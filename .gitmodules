@@ -1,0 +1,6 @@
+[submodule "blog"]
+	path = blog
+	url = https://github.com/Ypertex/blog.git
+[submodule "themes/inhabitu-hugo"]
+	path = themes/inhabitu-hugo
+	url = https://github.com/Ypertex/inhabitu-hugo.git

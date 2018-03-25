@@ -1,0 +1,26 @@
+archetypeDir = "blog/archetypes"
+baseURL = "https://blog.ypertex.com/"
+contentDir = "blog/content"
+copyright = "Some rights reserved"
+dataDir = "blog/data"
+languageCode = "en-us"
+paginate = 10
+paginatePath = ""
+preserveTaxonomyNames = true
+publishDir = "blog/published"
+staticDir = "blog/static"
+theme ="inhabitu-hugo"
+title = "Ypertex Blog"
+
+[taxonomies]
+author = "authors"
+tag = "tags"
+
+[params]
+description = "Design. Technology. Future."
+license = "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+licenseURL = "http://creativecommons.org/licenses/by/4.0/"
+github = "Ypertex/blog"
+mainLogo = "ypertex-logo-2017-01.png"
+navLogo = "ypertex-logo-2017-01-inverted.png"
+twitter = "Ypertex"
