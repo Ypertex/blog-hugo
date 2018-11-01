@@ -12,10 +12,6 @@ staticDir = "blog/static"
 theme ="inhabitu-hugo"
 title = "Ypertex Blog"
 
-[taxonomies]
-author = "authors"
-tag = "tags"
-
 [params]
 cover = "ypertex-blog-cover.png"
 description = "Design. Technology. Future."
@@ -24,4 +20,17 @@ licenseURL = "http://creativecommons.org/licenses/by/4.0/"
 github = "Ypertex/blog"
 mainLogo = "ypertex-logo-2017-01.png"
 navLogo = "ypertex-logo-2017-01-inverted.png"
+privacyNoticeURL = "/privacy/"
 twitter = "Ypertex"
+
+[privacy]
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[taxonomies]
+author = "authors"
+tag = "tags"
