@@ -1,0 +1,35 @@
+---
+label: Article
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+- type: text
+  label: Slug
+  name: slug
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: Tags
+- type: text
+  name: description
+  label: Description
+  config:
+    required: true
+- type: file
+  name: cover
+  label: Cover
+- type: list
+  label: Aliases
+  name: aliases
