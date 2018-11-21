@@ -33,3 +33,5 @@ fields:
 - type: list
   label: Aliases
   name: aliases
+pages:
+- blog/content/articles/test.md
