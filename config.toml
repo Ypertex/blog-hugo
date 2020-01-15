@@ -12,6 +12,11 @@ staticDir = "blog/static"
 theme ="inhabitu-hugo"
 title = "Ypertex Blog"
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [params]
 cloudinaryURL = "https://res.cloudinary.com/ypertex/image/upload/"
 cover = "ypertex-blog-cover.png"
