@@ -40,3 +40,20 @@ twitter = "Ypertex"
 [taxonomies]
 author = "authors"
 tag = "tags"
+
+[related]
+threshold = 50
+includeNewer = true
+toLower = true
+  [[related.indices]]
+  name = "tags"
+  weight = 40.0
+  [[related.indices]]
+  name = "title"
+  weight = 40.0
+  [[related.indices]]
+  name = "summary"
+  weight = 10.0
+    [[related.indices]]
+  name = "date"
+  weight = 10.0
